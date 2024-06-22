@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300,400;500,600;700;800;900&display=swap'
+);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E7EB;
+
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 20px;
+}
+
+.nav-menu-toggle {
+    display: none;
+}
+
+#icon {
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.nav-link {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1D232C;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+
+}
+
+#nav-container .profile img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.side-nav {
+    background-color: #1D232C;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    transition: 2s;
+}
+
+.side-nav-links {
+    margin-bottom: 20px;
+}
+
+.side-nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.side-nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-menu-toggle {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.header button {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    background-color: darkmagenta;
+    color: blanchedalmond;
+    outline: none;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.financial {
+    background-color: darkslateblue;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+
+.customer {
+    background-color: darkslateblue;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+}
+
+.airline {
+    background-color: darkslateblue;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+}
+
+.pro img {
+    flex-basis: 20%;
+}
+
+.Products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: beige;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pro-cntxt {
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.pro-cntxt h3 {
+    color: green;
+
+}
+
+.pro-cntxts {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pro-cntxts h4 {
+    color: darkslateblue;
+}
+
+.blog {
+    background-color: #1D232C;
+    padding: 30px;
+}
+
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box1 {
+    border: 10px solid white;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.box2 {
+    border: 10px solid white;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.box3 {
+    border: 10px solid white;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.newsletter input {
+    margin: 20px;
+    border: 3px solid black;
+    width: 60vw;
+    padding: 10px;
+}
+
+.newsletter button {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    background-color: #1D232C;
+    color: white;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width:700px) {
+    .nav-menu-toggle {
+        display: block;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .image {
+        display: none
+    }
+
+    .financial {
+        flex-basis: 60%;
+    }
+
+    .customer {
+        flex-basis: 60%;
+    }
+
+    .airline {
+        flex-basis: 60%;
+    }
+
+    .pro-cntxts {
+        display: none;
+    }
+
+    .pro-cntxt {
+        display: none;
+    }
+
+    .pro {
+        flex-basis: 40%;
+        margin-left: 5px;
+    }
+
+    .lists {
+        flex-basis: 50%;
+    }
+
+
+    .personal img {
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+
+    .business img {
+        width: 200px;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .busi1 {
+        justify-items: flex-start;
+    }
+
+    .calculator input {
+        width: 20px;
+    }
+
+    .items {
+        margin-left: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.container-search {
+    width: 80%;
+    border: solid black 2px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto
+}
+
+.container-search input {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+}
+
+.container-search input:hover {
+    outline: none;
+}
+
+.container-search input::placeholder {
+    color: black;
+    font-size: medium;
+}
+
+.servlist {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.personal {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.personal p {
+    padding: 5px;
+    padding-left: 30px;
+    width: 40%;
+    flex-basis: 30%;
+}
+
+.personal img {
+    position: absolute;
+    left: 50%;
+    flex-basis: 30%;
+}
+
+.lists {
+    position: relative;
+    left: 145px;
+    display: none;
+    color: goldenrod;
+    font-size: 20px;
+
+}
+
+.personal button {
+    position: absolute;
+    left: 30%;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    display: block;
+
+}
+
+.calci {
+    background-color: #E5E7EB;
+    margin-top: -50px;
+}
+
+.calculator {
+    background-color: #1D232C;
+    width: 30%;
+    height: 20%;
+    margin-left: 40%;
+    padding: 30px;
+    align-items: center;
+    color: white;
+    display: none;
+    border-radius: 20px;
+}
+
+.calculator h2 {
+    padding-left: 40px;
+    padding-bottom: 20px;
+
+}
+
+.calculator label {
+    margin: 10px;
+    padding-left: 30%;
+}
+
+.calculator input {
+    margin: 10px;
+    padding-left: 30%;
+    width: 350px;
+    padding: 10px;
+}
+
+.calculator button {
+    margin-left: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: green;
+    color: white
+}
+
+.calculator p {
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+.calci button {
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.servlist1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.business {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.business p {
+    padding: 5px;
+    padding-left: 30px;
+    width: 40%;
+
+}
+
+.business img {
+    position: absolute;
+    left: 50%;
+}
+
+.busi1 {
+    margin-bottom: 30px;
+    flex-shrink: unset;
+}
+
+.business img {
+    margin-bottom: 15px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.dashboard h3 {
+    margin-right: 30px;
+    margin-left: -200px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dashboard button {
+    background-color: green;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.dashboard i {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-left: -20px;
+    color: green;
+    touch-action: auto;
+}
+
+.dashboard button a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <form>
+        <div class="form">
+            <h2>Get In Touch</h2>
+            <div class="name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="mail">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone">
+            </div>
+            <div class="adress">
+                <input type="text" placeholder="Address">
+            </div>
+            <div class="msg">
+                <input placeholder="Type your message here">
+            </div>
+            <div class="feedback">
+                <button type="submit" onclick="update()" id="btn">Submit</button>
+
+            </div>
+        </div>
+    </form>
+    <div class="container">
+        <h1>Feedback Form</h1>
+        <form id="feedbackForm">
+            <label for="feedback" id="form">Your Feedback:</label>
+            <textarea id="feedback" rows="5" cols="33"></textarea>
+            <button type="button" id="startButton">Start Recording</button>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="status"></p>
+    </div>
+    <script src="script3.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EconoFlow</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <section id="menu">
+        <div class="logo">
+            <h2>EconoFlow</h2>
+        </div>
+        <p style="text-align: right;color:white;font-size:20px;padding-right: 30px;" onclick="closenow()">
+            <i class="fa-solid fa-xmark"></i>
+        <div class="items">
+            <li><i class="fa-solid fa-gauge"></i><a href="#">Dashboard</a></li>
+            <li><i class="fab fa-uikit"></i><a href="#">UI Elements</a></li>
+            <li><i class="fas fa-th-large"></i><a href="#">Tables</a></li>
+            <li><i class="fas fa-edit"></i><a href="#">Forms</a></li>
+            <li><i class="fab fa-cc-visa"></i><a href="#">Cards</a></li>
+            <li><i class="fas fa-hamburger"></i><a href="#">Modal</a></li>
+            <li><i class="fas fa-chart-line"></i><a href="#">Blank</a></li>
+        </div>
+    </section>
+
+    <section id="interface">
+        <div class="navigation">
+            <div class="n1">
+                <div>
+                    <i id="menu-btn" class="fas fa-bars" onclick="shownow()"></i>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+
+            <div class="profile">
+                <h3><a href="index.html">Home</a></h3>
+                <i class="far fa-bell"></i>
+                <img src="joe.jpg.jpg" alt="">
+            </div>
+        </div>
+        <h3 class="i-name">
+            Dashboard
+        </h3>
+        <div class="value">
+            <div class="value-box">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h3>8,267</h3>
+                    <span>New Users</span>
+                </div>
+            </div>
+
+            <div class="value-box">
+                <i class="fas fa-shopping-cart"></i>
+                <div>
+                    <h3>200, 521</h3>
+                    <span> Sales and Revenue </span>
+                </div>
+            </div>
+
+            <div class="value-box">
+                <i class="fas fa-bullhorn"></i>
+                <div>
+                    <h3>215,542</h3>
+                    <span>Marketing Metrics</span>
+                </div>
+            </div>
+
+            <div class="value-box">
+                <i class="fas fa-dollar-sign"></i>
+                <div>
+                    <h3>$677.89</h3>
+                    <span> Financial Metrics</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Accountant Name</td>
+                        <td>Account Number</td>
+                        <td>Status</td>
+                        <td>Balance</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="people">
+                            <img
+                                src="https://static.vecteezy.com/system/resources/previews/004/477/343/original/face-young-man-in-frame-circular-avatar-character-icon-free-vector.jpg">
+                            <div class="people-de">
+                                <h5>John Doe</h5>
+                                <p>john6@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="people-de">
+                            <h5>9999 9999</h5>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="Balance">
+                            <h5>1,00,000</h5>
+                        </td>
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img
+                                src="https://st5.depositphotos.com/51587144/67258/v/450/depositphotos_672586014-stock-illustration-circle-avatar-portrait-women-various.jpg">
+                            <div class="people-de">
+                                <h5>Joe</h5>
+                                <p>joe26@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="people-de">
+                            <h5>9899 9999</h5>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="Balance">
+                            <h5>2,00,000</h5>
+                        </td>
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img
+                                src="https://png.pngtree.com/png-clipart/20220509/original/pngtree-smiling-people-avatar-set-different-men-and-women-characters-collection-png-image_7691712.png">
+                            <div class="people-de">
+                                <h5>dharsh</h5>
+                                <p>dharsh23@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="people-de">
+                            <h5>1239 9999</h5>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="Balance">
+                            <h5>1,50,000</h5>
+                        </td>
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img
+                                src="https://st5.depositphotos.com/51587144/67258/v/450/depositphotos_672586096-stock-illustration-circle-avatar-portrait-women-various.jpg">
+                            <div class="people-de">
+                                <h5>lessi</h5>
+                                <p>lessb@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="people-de">
+                            <h5>1256 9389</h5>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="Balance">
+                            <h5>60,000</h5>
+                        </td>
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC_K6SToici2Ahd5TaKNJQCVYJ3keBbqmZaA&s">
+                            <div class="people-de">
+                                <h5>Jasmine</h5>
+                                <p>jas8@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="people-de">
+                            <h5>9019 1295</h5>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="Balance">
+                            <h5>3,50,000</h5>
+                        </td>
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img
+                                src="https://c8.alamy.com/comp/2ETR1HK/men-icon-trendy-avatar-character-cheerful-happy-people-flat-vector-illustration-round-frame-male-portraits-group-team-adorable-guys-isolated-on-2ETR1HK.jpg">
+                            <div class="people-de">
+                                <h5>Vishnu</h5>
+                                <p>visuj7@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="people-de">
+                            <h5>7712 9650</h5>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="Balance">
+                            <h5>5,00,000</h5>
+                        </td>
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img
+                                src="https://previews.123rf.com/images/pandavector/pandavector1607/pandavector160700169/60027144-man-with-glasses-icon-flat-single-avatar-people-icon-from-the-big-avatar-collection-stock-vector.jpg">
+                            <div class="people-de">
+                                <h5>Chum</h5>
+                                <p>chumn6@gmail.com</p>
+                            </div>
+                        </td>
+                        <td class="people-de">
+                            <h5>5936 4032</h5>
+                        </td>
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+                        <td class="Balance">
+                            <h5>30,000</h5>
+                        </td>
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="script2.js"></script>
+</body>
+
+</html>

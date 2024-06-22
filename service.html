@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EconoFlow</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav id="nav-container">
+        <h1>EconoFlow</h1>
+        <div class="nav-link">
+            <p class="nav-links"><a href="index.html">Home</a></p>
+            <p class="nav-links"><a href="service.html">Services</a></p>
+            <p class="nav-links"><a href="Dashboard.html">Dashboard</a></p>
+            <p class="nav-links"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="profile">
+            <img src="joe.jpg.jpg" alt="">
+        </div>
+
+        <div class="nav-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-nav">
+        <p style="text-align: right;color:white;font-size:20px" onclick="closeNav()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-nav-link">
+            <p class="side-nav-links"><a href="index.html">Home</a></p>
+            <p class="side-nav-links"><a href="service.html">Services</a></p>
+            <p class="side-nav-links"><a href="Dashboard.html">Dashboard</a></p>
+            <p class="side-nav-links"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <form class="container-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+    </div>
+
+    <div class="servlist">
+
+        <div class="personal">
+            <div class="pers1">
+                <h2>1.Personal Banking</h2>
+                <p>At EconoFlow we believe in empowering you to achieve your financial goals with confidence and
+                    convenience. Our personalized banking solutions are designed to elevate your banking experience and
+                    provide you with unparalleled benefits.Nurture your financial growth with our high-yield savings
+                    accounts, tailored to suit your saving needs and earn competitive interest rates.</p><br>
+
+            </div>
+            <div>
+                <img src="https://imarticus.org/blog/wp-content/uploads/2016/10/re.png" height="150px" width="400px"
+                    alt="">
+            </div>
+        </div>
+
+
+    </div>
+    <br><br><br>
+    <div class="calci">
+        <button onclick="update1()">Calculate the Interest</button>
+    </div>
+    <div class="cal-container">
+        <div class="calculator">
+            <h2>Simple Interest Calculator</h2>
+            <label for="amount" style="padding-left: 25%;">Principal Amount</label><br>
+            <input type="number" placeholder="Enter Principal amount" id="amount">
+            <br>
+            <label for="rate">Rate(%)</label><br>
+            <input type="number" placeholder="Enter Rate" id="rate">
+            <br>
+            <label for="time">Time(Years)</label><br>
+            <input type="number" placeholder="Enter Time" id="time">
+            <br>
+            <button onclick="answer()">Calculate</button>
+            <p>Principal Amount: <span id="output_1"></span></p>
+            <p>Total Interest:<span id="output_2"></span></p>
+            <p>Total Value: <span id="output_3"></span></p>
+        </div>
+    </div>
+    <div class="servlist1">
+        <div class="business">
+            <div class="busi1">
+                <h2>2.Business Solution</h2>
+                <p>At EconoFlow, we understand that businesses have unique financial needs and challenges. Our
+                    comprehensive
+                    Business Solutions are designed to support your growth, streamline your operations, and enhance your
+                    financial management. Whether you are a small startup or a large enterprise, our tailored services
+                    can
+                    help you achieve your business goals with ease and efficiency.</p>
+            </div>
+            <div>
+                <img src="https://assets-global.website-files.com/63c14315b818a31b179512a3/642a5e5a0700e36fe5967a17_open-banking-1200-1662083126.jpg"
+                    height="150px" width="400px" alt="">
+            </div>
+        </div>
+        <div class="dashboard">
+            <h3>Check Out our Dashboard</h3>
+            <i class="fas fa-hand-point-right"></i>
+            <button>
+                <h4><a href="dashboard.html">Dashboard</a></h4>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <h3>EconoFlow</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a laudantium beatae quibusdam</p>
+        <p><i class="fa-brands fa-instagram social-icon"></i> <i class="fa-brands fa-twitter social-icon"></i> <i
+                class="fa-brands fa-facebook social-icon"></i></p>
+        <p>@ 2024 EconoFlow.com</p>
+        <script src="script.js"></script>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
